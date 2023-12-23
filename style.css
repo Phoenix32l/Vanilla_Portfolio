@@ -6,6 +6,7 @@
 *{
     margin: 0;
     padding:0;
+    box-sizing: border-box;
 }
 
 
@@ -164,3 +165,48 @@ a:hover{
 .compact-icon span:first-child {
     transform: none;
   }
+
+
+/* SECTION */
+
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    min-height: fit-content;
+}
+
+
+
+
+/* PROFILE SECTION */
+
+
+.abdullah_picture img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+
+#my_profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    gap: 5rem;
+}
+
+
+.title{
+    padding-top: 6rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.section-text-p1{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
