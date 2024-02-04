@@ -180,7 +180,7 @@ section{
 
 
 
-/* PROFILE SECTION */
+/* ABOUT SECTION */
 
 
 .abdullah_picture img{
@@ -190,7 +190,7 @@ section{
 }
 
 
-#my_profile{
+#about{
     display: flex;
     justify-content: center;
     margin-top: 10rem;
@@ -210,3 +210,87 @@ section{
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+
+/* SKILLS AND PROJECTS SECTION */
+
+
+#skills{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    gap: 5rem;
+}
+
+.skills-container{
+    display: flex;
+    gap: 20rem;
+}
+
+
+.p-skills ul, .tech-skills ul, .soft-skills ul{
+    margin-top: 3rem;
+    list-style: none;
+}
+
+.p-skills li, .tech-skills li, .soft-skills li{
+    margin-top: 1rem;
+}
+
+
+/* PROJECTS */
+
+
+
+
+
+
+.project-1 h2{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+
+.project-1 li{
+    margin-top: 1rem;
+}
+
+.project-1 h2{
+    font-size: 1.7rem;
+}
+
+
+
+
+/* FOOTER */
+
+footer ul{
+    display: flex;
+    gap: 10rem;
+    list-style-type: none;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.footer-btn{
+    padding: 0;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: all .3s;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.footer-btn:hover{
+    opacity: .8;
+}
+
+.icon{
+    font-size: 2rem;
+}
+
+
+
+
